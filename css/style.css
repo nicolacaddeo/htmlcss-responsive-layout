@@ -24,11 +24,16 @@ ul {
 *************************/
 .container {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .flex {
     display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
 .space-between {
@@ -47,6 +52,14 @@ ul {
     border-radius: 20px;
     padding: 10px 15px;
 }
+
+.card-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 
 /*************************
     /UTILITIES
@@ -73,7 +86,7 @@ header>div {
 }
 
 ul,
-button,
+#white-button,
 .hidden-menu {
     display: none;
 }
@@ -83,6 +96,48 @@ li {
 }
 
 /** /Header **/
+
+/** Main **/
+main {
+    padding-top: 85px;
+}
+
+.card {
+    background-color: #b5ddff;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.card h2 {
+    color: #0084fd;
+}
+
+.card-container>* {
+    padding-top: 15px;
+}
+
+.card-container p {
+    color: #5b6f80;
+    font-weight: 700;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+#blue-button {
+    background-color: #0084fd;
+    color: #fff;
+    width: fit-content;
+    border: none;
+    border-radius: 20px;
+    margin: 15px 0;
+    padding: 10px 50px;
+    font-size: 1.1rem;
+}
+
+/** /Main **/
 
 /*************************
         /STYLE
@@ -107,7 +162,7 @@ li {
 
     .hidden-menu,
     ul,
-    button {
+    #white-button {
         display: flex;
     }
 }
@@ -121,3 +176,11 @@ li {
 /****************************************
     DEBUG
 *****************************************/
+
+section {
+    min-height: 500px;
+}
+
+.card {
+    min-height: 546px;
+}
