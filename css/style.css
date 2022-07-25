@@ -18,6 +18,22 @@ body {
 /*************************
     UTILITIES
 *************************/
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
 
 /*************************
     /UTILITIES
@@ -26,6 +42,17 @@ body {
 /*************************
         STYLE
 *************************/
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #0084fd;
+    color: #fff;
+}
+
+header>div {
+    line-height: 80px;
+    min-height: 80px;
+}
 
 /*************************
         /STYLE
