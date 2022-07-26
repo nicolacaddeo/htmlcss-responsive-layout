@@ -259,6 +259,55 @@ main {
 /** //testimonials section **/
 
 /** working with us section **/
+#benefits-title {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    padding-top: 60px;
+}
+
+#benefits .white-card {
+    border-radius: 20px;
+    max-width: 80%;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.benefits-card {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.benefits-card>* {
+    padding: 15px 0;
+}
+
+.benefits-card h2,
+h3 {
+    color: #9792e4;
+}
+
+.card-counter {
+    font-size: 3rem;
+}
+
+.benefits-card p {
+    color: #797979;
+    padding-bottom: 25px;
+    line-height: 1.7rem;
+}
+
+.more-button {
+    background-color: #9792e4;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+
 
 /** //working with us section **/
 
@@ -350,6 +399,5 @@ main {
 *****************************************/
 
 section {
-
-    margin: 20px 0;
+    margin: 40px 0;
 }
