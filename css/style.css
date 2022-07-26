@@ -208,9 +208,10 @@ main {
 /** /strategic planning section **/
 
 /** testimonials section **/
-.testimonials h2 {
+.purple-title {
     color: #9792e4;
     font-size: 2rem;
+    line-height: 2rem;
 }
 
 .purple-card {
@@ -307,18 +308,40 @@ h3 {
     padding: 10px 50px;
 }
 
-
-
 /** //working with us section **/
+
+/** About us section **/
+#about-us .container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#about-us-title {
+    font-size: 2.8rem;
+    color: #9792e4;
+}
+
+#about-us p {
+    line-height: 2.2rem;
+}
+
+#about-us img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/** //About us section **/
 
 /** /Main **/
 
 /*************************
-        /STYLE
+        //STYLE
 *************************/
 
 /*************************
-        Responsive
+        Responsive Tablet
 *************************/
 @media screen and (min-width: 768px) {
     #light-blue-cards .card {
@@ -348,6 +371,13 @@ h3 {
     }
 }
 
+/*************************
+       //Responsive Tablet
+*************************/
+
+/*************************
+        Responsive Dekstop
+*************************/
 @media screen and (min-width: 1200px) {
 
     /** Header **/
@@ -396,7 +426,9 @@ h3 {
 
 }
 
-
+/*************************
+        //Responsive Dekstop
+*************************/
 
 
 
