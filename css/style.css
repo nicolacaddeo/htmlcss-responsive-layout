@@ -9,6 +9,8 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
 }
 
 ul {
@@ -35,6 +37,10 @@ section img {
     padding: 0 30px;
 }
 
+.container>* {
+    padding: 20px 0;
+}
+
 /** Flex **/
 .flex {
     display: flex;
@@ -58,11 +64,10 @@ section img {
     align-items: center;
 }
 
-.end {
-    justify-content: flex-end;
-}
-
 /** /Flex **/
+.text-center {
+    text-align: center;
+}
 
 #white-button {
     background-color: #fff;
@@ -201,7 +206,55 @@ main {
 }
 
 /** testimonials section **/
+.testimonials h2 {
+    color: #9792e4;
+    font-size: 2rem;
+}
 
+.purple-card {
+    max-width: 90%;
+    margin: 30px auto;
+    min-height: 200px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #9792e4;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.testimonials img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.purple-card p {
+    padding-bottom: 25px;
+}
+
+.testimonial-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.feedback::before,
+.feedback::after {
+    font-size: 70px;
+    color: #fff;
+    line-height: 0;
+    vertical-align: bottom;
+}
+
+.feedback::before {
+    content: open-quote;
+}
+
+.feedback::after {
+    content: close-quote;
+}
+
+/** /testimonials section **/
 /** /Main **/
 
 /*************************
