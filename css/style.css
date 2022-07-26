@@ -15,6 +15,14 @@ ul {
     list-style-type: none;
 }
 
+section:nth-of-type(even) {
+    background-color: #9792e4;
+}
+
+section img {
+    width: 100%
+}
+
 /*************************
     /GENERAL RULES
 *************************/
@@ -37,8 +45,8 @@ ul {
     flex-direction: column;
 }
 
-.row {
-    display: flex;
+.wrap {
+
     flex-wrap: wrap;
 }
 
@@ -50,7 +58,12 @@ ul {
     align-items: center;
 }
 
+.end {
+    justify-content: flex-end;
+}
+
 /** /Flex **/
+
 #white-button {
     background-color: #fff;
     font-size: 1.1rem;
@@ -61,10 +74,20 @@ ul {
 }
 
 .card-container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
 }
+
+.white-card {
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
 
 /*************************
     /UTILITIES
@@ -119,11 +142,11 @@ main {
 }
 
 .card-container>* {
-    padding: 20px 0;
+    padding: 10px 0;
     line-height: 1.5rem;
 }
 
-.card-container p {
+#light-blue-cards p {
     color: #5b6f80;
     font-weight: 700;
 }
@@ -147,6 +170,37 @@ main {
     font-size: 7.5rem;
     color: #0084fd;
 }
+
+/** 2nd section **/
+.strategic-planning {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.strategic-planning>h2 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.strategic-planning>p {
+    color: #fff;
+}
+
+.white-card>* {
+    padding: 15px 0;
+}
+
+#purple-button {
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #9792e4;
+    height: 60px;
+    width: 60px;
+}
+
+/** testimonials section **/
 
 /** /Main **/
 
@@ -208,5 +262,6 @@ main {
 *****************************************/
 
 section {
-    min-height: 500px;
+
+    margin: 20px 0;
 }
