@@ -80,7 +80,7 @@ section img {
 }
 
 .white-card {
-    max-width: 90%;
+    max-width: 100%;
     margin: 30px auto;
     border-radius: 40px;
     text-align: center;
@@ -177,13 +177,13 @@ main {
     padding-bottom: 30px;
 }
 
-.strategic-planning>h2 {
+#strategic-planning-intro h2 {
     font-size: 2rem;
     color: #fff;
     padding: 40px 0;
 }
 
-.strategic-planning>p {
+#strategic-planning-intro p {
     color: #fff;
 }
 
@@ -220,6 +220,8 @@ main {
     #light-blue-cards .card:first-child {
         width: calc(100% / 3 * 2 - 20px);
     }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -245,6 +247,23 @@ main {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    /** strategic planning section **/
+    .strategic-planning {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+    }
+
+    #strategic-planning-intro {
+        width: 50%;
+    }
+
+    #strategic-planning-card {
+        width: 40%;
+
+    }
+
 
 
 }
