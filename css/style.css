@@ -176,7 +176,7 @@ main {
     color: #0084fd;
 }
 
-/** 2nd section **/
+/** strategic planning section **/
 .strategic-planning {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -204,6 +204,8 @@ main {
     height: 60px;
     width: 60px;
 }
+
+/** /strategic planning section **/
 
 /** testimonials section **/
 .testimonials h2 {
@@ -254,7 +256,12 @@ main {
     content: close-quote;
 }
 
-/** /testimonials section **/
+/** //testimonials section **/
+
+/** working with us section **/
+
+/** //working with us section **/
+
 /** /Main **/
 
 /*************************
@@ -274,7 +281,16 @@ main {
         width: calc(100% / 3 * 2 - 20px);
     }
 
+    /** testimonials**/
+    .purple-card .card-container {
+        width: 90%;
+    }
 
+    .col {
+        flex-direction: row;
+
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 1200px) {
