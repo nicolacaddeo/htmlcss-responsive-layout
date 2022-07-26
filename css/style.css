@@ -340,6 +340,12 @@ h3 {
 
         align-items: center;
     }
+
+    /** benefits **/
+    #benefits .white-card {
+        width: calc(100% / 2 - 20px);
+        margin: 10px 10px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -380,6 +386,12 @@ h3 {
     #strategic-planning-card {
         width: 40%;
 
+    }
+
+    /** benefits **/
+    #benefits .white-card {
+        width: calc(100% / 3 - 20px);
+        margin: 10px 10px;
     }
 
 }
