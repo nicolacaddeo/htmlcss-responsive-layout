@@ -25,6 +25,11 @@ section img {
     width: 100%
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 /*************************
     /GENERAL RULES
 *************************/
@@ -196,7 +201,7 @@ main {
     padding: 15px 0;
 }
 
-#purple-button {
+#circle-purple-button {
     font-size: 1.3rem;
     border: none;
     border-radius: 50%;
@@ -299,7 +304,7 @@ h3 {
     line-height: 1.7rem;
 }
 
-.more-button {
+.purple-button {
     background-color: #9792e4;
     color: #fff;
     font-size: 1.1rem;
@@ -319,6 +324,7 @@ h3 {
 #about-us-title {
     font-size: 2.8rem;
     color: #9792e4;
+    padding-bottom: 40px;
 }
 
 #about-us p {
@@ -330,6 +336,17 @@ h3 {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#about-us strong {
+    color: #9792e4;
+    font-size: 1.9rem;
+}
+
+#about-us .purple-button {
+    padding: 5px 10px;
+    margin: 30px 0;
 }
 
 /** //About us section **/
@@ -368,6 +385,24 @@ h3 {
     #benefits .white-card {
         width: calc(100% / 2 - 20px);
         margin: 10px 10px;
+    }
+
+    /** about us **/
+    #about-us .col {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #about-us .container {
+        max-width: 90%;
+    }
+
+    .w-70 {
+        width: 60%;
+    }
+
+    .w-30 {
+        width: 30%;
     }
 }
 
