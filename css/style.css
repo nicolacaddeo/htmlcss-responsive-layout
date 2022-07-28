@@ -397,86 +397,87 @@ h3 {
         max-width: 90%;
     }
 
-    .w-60 {
-        width: 60%;
+    <<<<<<< HEAD .w-60 {
+        =======.w-60 {
+            >>>>>>>ea2fc97622482a62d4985f3f4371f609798f36d8 width: 60%;
+        }
+
+        .w-30 {
+            width: 30%;
+        }
     }
 
-    .w-30 {
-        width: 30%;
-    }
-}
-
-/*************************
+    /*************************
        //Responsive Tablet
 *************************/
 
-/*************************
+    /*************************
         Responsive Dekstop
 *************************/
-@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
 
-    /** Header **/
-    .container {
-        max-width: 60%;
-        margin: 0 auto;
+        /** Header **/
+        .container {
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        .fa-bars {
+            display: none;
+        }
+
+        .hidden-menu,
+        ul,
+        #white-button {
+            display: flex;
+        }
+
+        /** Header **/
+        .col {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        /** strategic planning section **/
+        .strategic-planning {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #strategic-planning-intro {
+            width: 50%;
+        }
+
+        #strategic-planning-card {
+            width: 40%;
+
+        }
+
+        /** benefits **/
+        #benefits .white-card {
+            width: calc(100% / 3 - 20px);
+            margin: 10px 10px;
+        }
+
     }
 
-    .fa-bars {
-        display: none;
-    }
-
-    .hidden-menu,
-    ul,
-    #white-button {
-        display: flex;
-    }
-
-    /** Header **/
-    .col {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    /** strategic planning section **/
-    .strategic-planning {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    #strategic-planning-intro {
-        width: 50%;
-    }
-
-    #strategic-planning-card {
-        width: 40%;
-
-    }
-
-    /** benefits **/
-    #benefits .white-card {
-        width: calc(100% / 3 - 20px);
-        margin: 10px 10px;
-    }
-
-}
-
-/*************************
+    /*************************
         //Responsive Dekstop
 *************************/
 
 
 
-/*************************
+    /*************************
         /Responsive
 *************************/
 
 
 
-/****************************************
+    /****************************************
     DEBUG
 *****************************************/
 
-section {
-    margin: 40px 0;
-}
+    section {
+        margin: 40px 0;
+    }
